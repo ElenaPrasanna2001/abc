@@ -35,5 +35,5 @@ jobs:
       - name: Test with pytest
         run: |
           Pip install pytest 
-          export pythonpath=src
+          export pythonpath=main.py
           pytest
